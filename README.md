@@ -1,8 +1,11 @@
-# ALX Travel App 0x00
 
-This project defines models (Listing, Booking, Review), serializers, and a seeder command to populate the database with sample data.
+# Travel App API (alx_travel_app_0x01)
 
-## Features
-- Database models for listings, bookings, and reviews
-- Serializers for API representation
-- Seeder management command (`python manage.py seed`) to populate sample data
+## Endpoints
+- `/api/listings/` → Manage Listings (CRUD)
+- `/api/bookings/` → Manage Bookings (CRUD)
+- `/swagger/` → API Documentation
+
+## Testing
+Use Postman or Swagger to test:
+- Create, read, update, delete listings and bookings.
